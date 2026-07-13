@@ -70,6 +70,15 @@ html {
   }
 }
 
+.sidebar-icons {
+  justify-content: center;
+}
+@media (min-width: 48em) {
+  .sidebar-icons {
+    justify-content: flex-start;
+  }
+}
+
 /* Sidebar links */
 .sidebar a {
   color: #fff;
