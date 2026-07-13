@@ -1,6 +1,6 @@
 # Setup
 title:            Cameron Wilding's Portfolio
-#tagline:          'A Jekyll theme'
+#tagline:          ''
 description:      ''
 url:              http://advun.github.io
 baseurl:          ""
@@ -10,3 +10,8 @@ author:
   url:            ""
 
 paginate:         5
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
