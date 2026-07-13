@@ -2,6 +2,7 @@
 layout: project
 title: "Site One"
 photo: /public/images/site-one.jpg
+date: 2026-03-13
 excerpt: "A short one-line description of this project."
 ---
 
