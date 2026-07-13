@@ -5,10 +5,6 @@ description:      'A brazen two-column <a href="http://jekyllrb.com" target="_bl
 url:              http://advun.github.io
 baseurl:          ""
 
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
-
 author:
   name:           'Cam Wilding'
   url:            https://twitter.com/mdo
