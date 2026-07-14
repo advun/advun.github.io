@@ -9,8 +9,6 @@ author:
   name:           'Cam Wilding'
   url:            ""
 
-paginate:         5
-
 collections:
   projects:
     output: true
