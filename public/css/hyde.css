@@ -185,8 +185,8 @@ a.sidebar-nav-item:focus {
     display: block;
     position: fixed;
     top: 4rem;
-    right: 1rem;
-    width: 16rem;
+    right: 2rem;
+    width: 10rem;
     max-height: calc(100vh - 8rem);
     overflow-y: auto;
     font-size: 0.85rem;
