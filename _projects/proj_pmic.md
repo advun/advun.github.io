@@ -18,7 +18,7 @@ excerpt: "A fully self contained power management ASIC for edge devices"
 
 ## Paper
 
-<iframe src="{{ '/public/files/team_4_final_presentation_10-3.pdf' | relative_url }}" width="100%" height="800px" style="border: none; border-radius: 6px;">
+<iframe src="{{ '/public/files/CRIMSON_MQP_Report_REAL.pdf' | relative_url }}" width="100%" height="800px" style="border: none; border-radius: 6px;">
   This browser doesn't support embedded PDFs.
-  <a href="{{ '/public/files/team_4_final_presentation_10-3.pdf' | relative_url }}">Download the PDF instead.</a>
+  <a href="{{ '/public/files/CRIMSON_MQP_Report_REAL.pdf' | relative_url }}">Download the PDF instead.</a>
 </iframe>
