@@ -1,12 +1,13 @@
 ---
 layout: project
 title: "Visitor Mobility and Behavior Analysis in Logan Pass"
-photo: /public/images/tbd.jpg
+photo: /public/images/glacierbackground.jpeg
 date: 2024-10-10
 excerpt: "Analyzing Visitor GPS Data to extract Glacier National Park visitor trends"
 ---
+<hr style="border: none; border-top: 4px solid rgba(0,0,0,0.5); margin: 2rem 0;">
 
-##Overview
+## Overview
 
 One of the WPI project requirements is the Interactive Qualifying Project (IQP). These projects aim to fulfill the needs of different domestic and international communities, and work to provide both engineering and social solutions. More information can be found on the WPI IQP [site](https://www.wpi.edu/project-based-learning/project-based-education/interactive-qualifying-project). 
 
@@ -21,7 +22,7 @@ To accomplish these goals, we analyzed GPS tracking data for 500 visitors, findi
 
 Our findings were presented to Glacier National Park Leadership on October 10th, 2024, which can be found below.  Our full paper on the entire project can be found on the [WPI Archive](https://digital.wpi.edu/concern/student_works/765375722?locale=en), which includes significantly more in depth information about our process and our data.
 
-##Presentation
+## Presentation
 
 <iframe src="{{ '/public/files/team_4_final_presentation_10-3.pdf' | relative_url }}" width="100%" height="800px" style="border: none; border-radius: 6px;">
   This browser doesn't support embedded PDFs.
