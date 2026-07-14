@@ -23,9 +23,9 @@ Our findings were presented to Glacier National Park Leadership on October 10th,
 
 ## Data
 
-## Processing
+### Data Processing
 
-### Conclusions
+## Conclusions
 
 ## Presentation
 

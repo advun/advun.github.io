@@ -3,8 +3,6 @@ layout: page
 title: CV
 ---
 
-<hr style="border: none; border-top: 4px solid rgba(0,0,0,0.5); margin: 2rem 0;">
-
 <iframe src="{{ '/public/files/cameronwildingresume.pdf' | relative_url }}" width="100%" height="800px" style="border: none; border-radius: 6px;">
   This browser doesn't support embedded PDFs.
 </iframe>
