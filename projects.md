@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+wide: true
 ---
 
 {% assign sorted_projects = site.projects | sort: "date" | reverse %}
