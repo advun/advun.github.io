@@ -3,6 +3,8 @@ layout: page
 title: Projects
 ---
 
+<hr style="border: none; border-top: 4px solid rgba(0,0,0,0.5); margin: 2rem 0;">
+
 {% assign sorted_projects = site.projects | sort: "date" | reverse %}
 
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.5rem;">

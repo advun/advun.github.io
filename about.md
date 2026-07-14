@@ -3,6 +3,8 @@ layout: page
 title: About
 ---
 
+<hr style="border: none; border-top: 4px solid rgba(0,0,0,0.5); margin: 2rem 0;">
+
 <p class="message">
   Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
 </p>
