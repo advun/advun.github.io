@@ -10,7 +10,7 @@ title: CV
 </iframe>
 
 <div style="text-align: center;">
-    <a href="{{ '/public/files/resume.pdf' | relative_url }}" download style="display: inline-block; padding: 0.6rem 1.2rem; background-color: #000000; color: #fff; border-radius: 0px; text-decoration: none; margin-top: 1rem;">
+    <a href="{{ '/public/files/cameronwildingresume.pdf' | relative_url }}" download style="display: inline-block; padding: 0.6rem 1.2rem; background-color: #000000; color: #fff; border-radius: 0px; text-decoration: none; margin-top: 1rem;">
   Download PDF
     </a>
 </div>

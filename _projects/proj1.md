@@ -6,5 +6,25 @@ date: 2026-03-13
 excerpt: "A short one-line description of this project."
 ---
 
-Full write-up of the project goes here — as much as you want,
-in regular Markdown.
+## Design
+
+Some intro text about the design phase.
+
+### Constraints
+
+Details about constraints here.
+
+### Design Details
+
+More detail here.
+
+#### Compute Units
+
+Even more nested detail.
+
+#### Compute Units Compute Units Compute Units Compute Units Compute Units Compute Units Compute Units
+
+
+## Conclusion
+
+Wrap-up thoughts.

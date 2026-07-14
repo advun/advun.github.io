@@ -175,6 +175,43 @@ a.sidebar-nav-item:focus {
   }
 }
 
+/*project*/
+.project-toc {
+  display: none;
+}
+
+@media (min-width: 76em) {
+  .project-toc {
+    display: block;
+    position: fixed;
+    top: 4rem;
+    right: 2rem;
+    width: 16rem;
+    max-height: calc(100vh - 8rem);
+    overflow-y: auto;
+    font-size: 0.85rem;
+  }
+  .project-toc ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 1rem;
+  }
+  .project-toc > ul {
+    padding-left: 0;
+  }
+  .project-toc a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    padding: 0.15rem 0;
+  }
+  .project-toc a:hover {
+    text-decoration: underline;
+  }
+}
+
+
+
 
 
 /*

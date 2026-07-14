@@ -2,10 +2,51 @@
 layout: default
 ---
 
-<div class="page">
+<div class="page project-page">
   <h1 class="page-title">{{ page.title }}</h1>
   {% if page.photo %}
     <img src="{{ page.photo | relative_url }}" alt="{{ page.title }}" style="width: 100%; max-width: 600px; margin-bottom: 1.5rem;">
   {% endif %}
-  {{ content }}
+
+  <div id="project-content">
+    {{ content }}
+  </div>
 </div>
+
+<nav id="toc" class="project-toc"></nav>
+
+<script>
+(function () {
+  var content = document.getElementById('project-content');
+  var tocContainer = document.getElementById('toc');
+  var headings = content.querySelectorAll('h2, h3, h4');
+  if (!headings.length) return;
+
+  var root = document.createElement('ul');
+  var stack = [{ level: 1, ul: root }];
+
+  headings.forEach(function (heading) {
+    var level = parseInt(heading.tagName.substring(1), 10);
+    var li = document.createElement('li');
+    var a = document.createElement('a');
+    a.href = '#' + heading.id;
+    a.textContent = heading.textContent;
+    li.appendChild(a);
+
+    while (level <= stack[stack.length - 1].level) {
+      stack.pop();
+    }
+    stack[stack.length - 1].ul.appendChild(li);
+
+    var nestedUl = document.createElement('ul');
+    li.appendChild(nestedUl);
+    stack.push({ level: level, ul: nestedUl });
+  });
+
+  root.querySelectorAll('ul').forEach(function (ul) {
+    if (!ul.children.length) ul.remove();
+  });
+
+  tocContainer.appendChild(root);
+})();
+</script>
