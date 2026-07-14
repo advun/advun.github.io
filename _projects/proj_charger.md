@@ -26,11 +26,10 @@ Lorum Ipsum
 Lorum Ipsum
 
 ### Schematic
-Lorum Ipsum
-
-Lorum Ipsum
-Lorum Ipsum
-Lorum Ipsum
+<iframe src="{{ '/public/files/smartchargschem.pdf' | relative_url }}" width="100%" height="800px" style="border: none; border-radius: 6px;">
+  This browser doesn't support embedded PDFs.
+  <a href="{{ '/public/files/smartchargschem.pdf' | relative_url }}">Download the PDF instead.</a>
+</iframe>
 
 
 ### Parts List
@@ -39,11 +38,8 @@ Lorum Ipsum
 Lorum Ipsum
 Lorum Ipsum
 
-## Financial Analysis
-
-Lorum IpsumLorum Ipsum
-Lorum Ipsum
-Lorum Ipsum
-
-## Presentation
-Lorum Ipsum
+## Final Presentation
+<iframe src="{{ '/public/files/2799pres.pdf' | relative_url }}" width="100%" height="800px" style="border: none; border-radius: 6px;">
+  This browser doesn't support embedded PDFs.
+  <a href="{{ '/public/files/2799pres.pdf' | relative_url }}">Download the PDF instead.</a>
+</iframe>

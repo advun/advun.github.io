@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "SDC GOAT-1 Satellite"
-photo: /public/images/tbd.jpg
+photo: /public/images/goat1.jpg
 date: 2026-01-01
 excerpt: "WPI's first satellite, a PocketQube"
 ---
