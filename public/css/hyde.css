@@ -191,6 +191,7 @@ a.sidebar-nav-item:focus {
   align-items: center;   /* mobile default: centered */
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .image-text-row-right {
@@ -211,6 +212,7 @@ a.sidebar-nav-item:focus {
   .image-text-row-right .text-col {
     order: 1; /* reorder for big screens*/
     align-items: flex-start;
+    text-align: left;
   }
 }
 
@@ -230,6 +232,7 @@ a.sidebar-nav-item:focus {
   }
   .image-text-row-left .text-col {
     align-items: flex-end;
+    text-align: right;
   }
 }
 
