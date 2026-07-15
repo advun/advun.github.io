@@ -193,7 +193,7 @@ a.sidebar-nav-item:focus {
   .image-text-row-right {
     display: flex;
     gap: 1.5rem;
-    align-items: stretch
+    align-items: center;
   }
   .image-text-row-right img {
     width: 30%;
@@ -212,7 +212,7 @@ a.sidebar-nav-item:focus {
   .image-text-row-left {
     display: flex;
     gap: 1.5rem;
-    align-items: stretch
+    align-items: center;
   }
   .image-text-row-left img {
     width: 30%;
