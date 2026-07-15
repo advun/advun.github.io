@@ -166,17 +166,37 @@ a.sidebar-nav-item:focus {
 }
 
 
-.image-text-row {
+.image-text-row-right {
   display: block;
 }
 @media (min-width: 48em) {
-  .image-text-row {
+  .image-text-row-right {
     display: flex;
     gap: 1.5rem;
     align-items: flex-start;
   }
-  .image-text-row img {
+  .image-text-row-right img {
     width: 40%;
+    flex-shrink: 0;
+    order: 2;
+  }
+  .image-text-row-right .text-col {
+    order: 1; /* reorder for big screens*/
+  }
+}
+
+.image-text-row-left {
+  display: block;
+}
+@media (min-width: 48em) {
+  .image-text-row-left {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+  }
+  .image-text-row-left img {
+    width: 40%;
+    flex-shrink: 0;
   }
 }
 
