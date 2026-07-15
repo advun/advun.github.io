@@ -145,6 +145,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 64em) {
   .content {
+    max-width: 64rem;
     margin-left: 20rem;
     margin-right: 4rem;
   }
@@ -160,6 +161,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 64em) {
   .content-wide {
+    max-width: 64rem;
     margin-left: 20rem;
     margin-right: 4rem;
   }
@@ -187,6 +189,8 @@ a.sidebar-nav-item:focus {
 
 .text-col {
   align-items: center;   /* mobile default: centered */
+  display: flex;
+  flex-direction: column;
 }
 
 .image-text-row-right {
@@ -314,7 +318,16 @@ a.sidebar-nav-item:focus {
   }
 }
 
+.mobile-spacer {
+  display: block;
+  height: 2rem;
+}
 
+@media (min-width: 48em) {
+  .mobile-spacer {
+    display: none;
+  }
+}
 
 
 
