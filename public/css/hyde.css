@@ -152,7 +152,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .content-wide {
-    max-width: 46rem;
+    max-width: 54rem;
     margin-left: 18rem;
     margin-right: 2rem;
   }
@@ -165,6 +165,20 @@ a.sidebar-nav-item:focus {
   }
 }
 
+
+.image-text-row {
+  display: block;
+}
+@media (min-width: 48em) {
+  .image-text-row {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+  }
+  .image-text-row img {
+    width: 40%;
+  }
+}
 
 /*
  * Reverse layout
