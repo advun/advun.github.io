@@ -5,7 +5,7 @@ wide: true
 ---
 
 
-<div class="image-text-row-right">
+<div class="image-text-row">
   <img src="{{ '/public/images/headshot.jpg' | relative_url }}" alt="Cameron Wilding">
   <div style="display: flex; align-items: center;">
     <p>Lorum Ipsum Dolar Lorum Ipsum Dolar Lorum Ipsum Dolar Lorum Ipsum Dolar Lorum Ipsum Dolar 

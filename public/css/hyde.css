@@ -165,6 +165,26 @@ a.sidebar-nav-item:focus {
   }
 }
 
+.image-text-row {
+  display: block;
+}
+@media (min-width: 48em) {
+  .image-text-row {
+    display: flex;
+    gap: 1.5rem;
+    align-items: stretch
+  }
+  .image-text-row img {
+    width: 40%;
+    flex-shrink: 0;
+    order: 2;
+  }
+  .image-text-row .text-col {
+    order: 1; /* reorder for big screens*/
+  }
+}
+
+
 
 .image-text-row-right {
   display: block;
@@ -176,7 +196,7 @@ a.sidebar-nav-item:focus {
     align-items: stretch
   }
   .image-text-row-right img {
-    width: 40%;
+    width: 30%;
     flex-shrink: 0;
     order: 2;
   }
@@ -195,7 +215,7 @@ a.sidebar-nav-item:focus {
     align-items: stretch
   }
   .image-text-row-left img {
-    width: 40%;
+    width: 30%;
     flex-shrink: 0;
   }
 }
