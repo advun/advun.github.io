@@ -16,10 +16,6 @@ wide: true
     Lorum Ipsum Dolar Lorum Ipsum Dolar Lorum Ipsum Dolar Lorum Ipsum Dolar Lorum Ipsum Dolar 
     Lorum Ipsum Dolar Lorum Ipsum Dolar Lorum Ipsum Dolar Lorum Ipsum Dolar 
     Lorum Ipsum Dolar Lorum Ipsum Dolar </p>
-    <p>Lorum Ipsum Dolar Lorum Ipsum Dolar Lorum Ipsum Dolar Lorum Ipsum Dolar Lorum Ipsum Dolar 
-    Lorum Ipsum Dolar Lorum Ipsum Dolar Lorum Ipsum Dolar Lorum Ipsum Dolar Lorum Ipsum Dolar 
-    Lorum Ipsum Dolar Lorum Ipsum Dolar Lorum Ipsum Dolar Lorum Ipsum Dolar 
-    Lorum Ipsum Dolar Lorum Ipsum Dolar </p>
   </div>
 </div>
 
