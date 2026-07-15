@@ -238,10 +238,21 @@ a.sidebar-nav-item:focus {
   border-radius: 9999px;
   text-decoration: none;
   transition: background-color 0.15s ease, color 0.15s ease;
+  align-self: center;
 }
+
 .button-link:hover {
   background-color: #268bd2;
   color: #fff;
+}
+
+@media (min-width: 48em) {
+  .button-link.align-right {
+    align-self: flex-end;
+  }
+  .button-link.align-left {
+    align-self: flex-start;
+  }
 }
 
 /*
