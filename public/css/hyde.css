@@ -185,7 +185,9 @@ a.sidebar-nav-item:focus {
   }
 }
 
-
+.text-col {
+  align-items: center;   /* mobile default: centered */
+}
 
 .image-text-row-right {
   display: block;
@@ -204,6 +206,7 @@ a.sidebar-nav-item:focus {
   }
   .image-text-row-right .text-col {
     order: 1; /* reorder for big screens*/
+    align-items: flex-start;
   }
 }
 
@@ -220,6 +223,9 @@ a.sidebar-nav-item:focus {
   .image-text-row-left img {
     width: 30%;
     flex-shrink: 0;
+  }
+  .image-text-row-left .text-col {
+    align-items: flex-end;
   }
 }
 
