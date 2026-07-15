@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "CRIMSON Power Management IC"
-photo: /public/images/tbd.jpg
+photo: /public/images/crimson.png
 date: 2026-05-15
 excerpt: "A fully self contained power management ASIC for edge devices"
 ---

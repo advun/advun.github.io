@@ -168,6 +168,7 @@ a.sidebar-nav-item:focus {
 .image-text-row {
   display: block;
 }
+
 @media (min-width: 48em) {
   .image-text-row {
     display: flex;
@@ -189,6 +190,7 @@ a.sidebar-nav-item:focus {
 .image-text-row-right {
   display: block;
 }
+
 @media (min-width: 48em) {
   .image-text-row-right {
     display: flex;
@@ -206,8 +208,9 @@ a.sidebar-nav-item:focus {
 }
 
 .image-text-row-left {
-  display: block;
+  display: block; 
 }
+
 @media (min-width: 48em) {
   .image-text-row-left {
     display: flex;
