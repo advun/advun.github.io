@@ -10,7 +10,7 @@ wide: true
   <div style="display: flex; align-items: center;">
     <p>I'm a final year Master's student at Worcester Polytechnic Institute researching cryptographic methods for AI governance. My current work centers on verifying the integrity and behavior of large language models without access to their internals, using zk-SNARK proof pipelines and behavioral probing.  Before this, I worked on several digital
     and mixed signal projects, and have completed three tapeouts.
-
+    <br>
     I find AI to be an exceedingly interesting tool, but see many flaws and issues with the
     hardware and software that are currently being used to claim some level of safety.  All systems have flaws, of course, but the move fast and break things approach of Silicon Valley is leading to obvious leaks, whether through unintended side channel data leakage or through lack of software protections.  The massive need for security for this pivotal technology is what drives my research.
    </p>
