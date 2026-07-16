@@ -139,15 +139,15 @@ a.sidebar-nav-item:focus {
   .content {
     max-width: 38rem;
     margin-left: 18rem;
-    margin-right: 2rem;
+    margin-right: 11rem;
   }
 }
 
 @media (min-width: 64em) {
   .content {
-    max-width: 48rem;
+    max-width: 64rem;
     margin-left: 20rem;
-    margin-right: 4rem;
+    margin-right: 11rem;
   }
 }
 
@@ -298,7 +298,7 @@ a.sidebar-nav-item:focus {
     position: fixed;
     top: 4rem;
     right: 2rem;
-    width: 10rem;
+    width: 8rem;
     max-height: calc(100vh - 8rem);
     overflow-y: auto;
     font-size: 0.85rem;
