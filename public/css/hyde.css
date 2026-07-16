@@ -178,9 +178,10 @@ a.sidebar-nav-item:focus {
     align-items: stretch
   }
   .image-text-row img {
-    width: 40%;
+    width: 45%;
     flex-shrink: 0;
     order: 2;
+    align-self: flex-start;
   }
   .image-text-row .text-col {
     order: 1; /* reorder for big screens*/
