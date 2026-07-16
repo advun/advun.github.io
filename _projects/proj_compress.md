@@ -1,9 +1,9 @@
 ---
 layout: project
-title: "FPGA Trace Data Compressor"
+title: "Trace Data Compressor"
 photo: /public/images/compress.png
 date: 2026-05-01
-excerpt: "Efficiently storing FPGA traces on limited memory"
+excerpt: "Compresses bus trace data for efficient on-chip storage"
 ---
 
 ## Overview
