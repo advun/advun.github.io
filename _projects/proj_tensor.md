@@ -6,6 +6,18 @@ date: 2025-12-10
 excerpt: "Efficient matrix multiplication for edge device inference"
 ---
 
+<style>
+figure {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+figure img {
+    display: block;
+    margin: 0 auto;
+}
+</style>
+
 ## Overview
 This is a Tensor Core, developed as a co-processer for the [Croc SoC](https://github.com/pulp-platform/croc) developed by ETH Zurich and the University of Bologna, designed to compute matrix multiplication as quickly as possible. It consists of 4 processing elements performing 8 MAC operations in parallel every cycle on INT8 outputting in INT32, allowing for 640,000,000 operations per second at 80 MHz. For reference: GPT-2 Small needs an average of 248 million ops per token, so we can generate 2.58 tokens per second.  This hardware allows for a 9.58x speedup over calculation in software.  Our size was constrained by both needing to tape out with other projects on the same chip and by strict memory fetching limits, but we have made the design to be easily expandable.  The chip was taped out during May 2026, and has yet to be recieved back from the fabrication lab.
 
