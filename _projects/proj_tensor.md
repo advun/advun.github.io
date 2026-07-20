@@ -8,8 +8,12 @@ excerpt: "Efficient matrix multiplication for edge device inference"
 
 ## Overview
 
-## Design
+### Design
 
-## Firmware
+#### Systolic Array
 
-## Layout
+#### Data Fetching/Storing
+
+### Operation
+
+4 Processing Elements which perform 2 operations a second at 20 MHz provide 160 million operations a second.  To produce 1 token on GPT-2 Medium, around 808 million operations need to occur.  Thus, our co-processor can produce a token every 5.05 seconds.  Not too bad for a extremely memory limited device.

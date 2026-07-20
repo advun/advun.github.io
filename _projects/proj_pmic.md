@@ -5,13 +5,12 @@ photo: /public/images/crimson.png
 date: 2026-05-15
 excerpt: "A fully self contained power management ASIC for edge devices"
 ---
-<head>
-    <style>
-        body {
-            text-align: center;
-        }
-    </style>
-</head>
+<style>
+figure {
+    text-align: center;
+    margin: 2rem auto;
+}
+</style>
 
 ## Overview
 CRIMSON, the Conversion and Regulation Integrated Management SolutiON is a Power Management Integrated Circuit (PMIC) with on-chip programmability, monitoring and control, developed over the course of a year as a Major Qualifying Project to fufill final degree requirements at WPI. The PMIC uses various power management methods with external powering such as a Micro-Solar Cell Manager and Linear Battery Charger in combination with a Boost Converter. For the rest of the chip, the LDO, BGR and Bias Network provide internal power. To monitor, the chip measures current and temperature with
@@ -45,7 +44,7 @@ The 8 bit SAR-ADC used to monitor analog signals on the chip needed several cont
 
 <body>
     <figure>
-        <img src="{{ '/public/images/watchdog.png' | relative_url }}" alt="ADC Watchdog" style="width:50%">
+        <img src="{{ '/public/images/watchdog.png' | relative_url }}" alt="ADC Watchdog" style="width:70%">
         <figcaption>ADC Comparators</figcaption>
     </figure>
 </body>
@@ -55,7 +54,7 @@ The POR-PG is a modified version of one created by Suat Ay, the advisor of this 
 
 <body>
     <figure>
-        <img src="{{ '/public/images/porpg.png' | relative_url }}" alt="PORPG" style="width:50%">
+        <img src="{{ '/public/images/porpg.png' | relative_url }}" alt="PORPG" style="width:70%">
         <figcaption>POR-PG Design</figcaption>
     </figure>
 </body>
@@ -64,7 +63,7 @@ Below is the POR-PG in operation.  As Voltage 1 (V5 on the above diagram) reache
 
 <body>
     <figure>
-        <img src="{{ '/public/images/porpgresponce.png' | relative_url }}" alt="PORPG Responce" style="width:50%">
+        <img src="{{ '/public/images/porpgresponce.png' | relative_url }}" alt="PORPG Responce" style="width:70%">
         <figcaption>POR-PG Responce</figcaption>
     </figure>
 </body>
