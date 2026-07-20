@@ -21,10 +21,6 @@ To accomplish these goals, we analyzed GPS tracking data for 500 visitors, findi
 
 Our findings were presented to Glacier National Park Leadership on October 10th, 2024, which can be found below.  Our full paper on the entire project can be found on the [WPI Archive](https://digital.wpi.edu/concern/student_works/765375722?locale=en), which includes significantly more in depth information about our process and our data.
 
-## Data
-
-### Data Processing
-
 ## Conclusions
 
 ## Presentation
