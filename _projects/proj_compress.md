@@ -12,5 +12,6 @@ more trace data at once.  If one is observing even 100 traces at 500 MHz, over 5
 
 Both designs use run length and delta encoding to take advantage of the predictable behavior of many busses. Long stretches of time where values remain the same or change at the same rate can be compressed quite easily, with minimal hardware, and decompressed without loss.
 
+## Links
 [Design 1](https://github.com/advun/goathacksCompressor) won Best Rookie Hack at GoatHacks 2026, and the much improved [Design 2](https://github.com/advun/ttCompressor) was taped out on the [TTsky26b](https://tinytapeout.com/chips/ttsky26b/) shuttle in May 2026, and awaits testing.  It can be viewed through TinyTapeout's viewer [here](https://advun.github.io/ttCompressor/).
 
