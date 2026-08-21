@@ -1,0 +1,15 @@
+# Setup
+title:            Cameron Wilding's Portfolio
+#tagline:          ''
+description:      ''
+url:              http://advun.github.io
+baseurl:          ""
+
+author:
+  name:           'Cam Wilding'
+  url:            ""
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/

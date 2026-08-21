@@ -1,0 +1,417 @@
+/*
+ *  __                  __
+ * /\ \                /\ \
+ * \ \ \___   __  __   \_\ \     __
+ *  \ \  _ `\/\ \/\ \  /'_` \  /'__`\
+ *   \ \ \ \ \ \ \_\ \/\ \_\ \/\  __/
+ *    \ \_\ \_\/`____ \ \___,_\ \____\
+ *     \/_/\/_/`/___/> \/__,_ /\/____/
+ *                /\___/
+ *                \/__/
+ *
+ * Designed, built, and released under MIT license by @mdo. Learn more at
+ * https://github.com/poole/hyde.
+ */
+
+
+/*
+ * Contents
+ *
+ * Global resets
+ * Sidebar
+ * Container
+ * Reverse layout
+ * Themes
+ */
+
+
+/*
+ * Global resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+
+html {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+}
+@media (min-width: 48em) {
+  html {
+    font-size: 16px;
+  }
+}
+@media (min-width: 58em) {
+  html {
+    font-size: 20px;
+  }
+}
+
+
+/*
+ * Sidebar
+ *
+ * Flexible banner for housing site name, intro, and "footer" content. Starts
+ * out above content in mobile and later moves to the side with wider viewports.
+ */
+
+.sidebar {
+  text-align: center;
+  padding: 1rem 1rem;
+  color: rgba(255,255,255,.5);
+  background-color: #202020;
+}
+@media (min-width: 48em) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 16rem;
+    text-align: left;
+  }
+}
+
+.sidebar-icons {
+  justify-content: center;
+}
+@media (min-width: 48em) {
+  .sidebar-icons {
+    justify-content: flex-start;
+  }
+}
+
+/* Sidebar links */
+.sidebar a {
+  color: #fff;
+}
+
+/* About section */
+.sidebar-about h1 {
+  color: #fff;
+  margin-top: 0;
+  font-family: "Abril Fatface", serif;
+  font-size: 3.25rem;
+}
+
+/* Sidebar nav */
+.sidebar-nav {
+  margin-bottom: 1rem;
+}
+.sidebar-nav-item {
+  display: block;
+  line-height: 1.75;
+}
+a.sidebar-nav-item:hover,
+a.sidebar-nav-item:focus {
+  text-decoration: underline;
+}
+.sidebar-nav-item.active {
+  font-weight: bold;
+}
+
+/* Sticky sidebar
+ *
+ * Add the `sidebar-sticky` class to the sidebar's container to affix it the
+ * contents to the bottom of the sidebar in tablets and up.
+ */
+
+@media (min-width: 48em) {
+  .sidebar-sticky {
+    position: absolute;
+    right:  1rem;
+    bottom: 1rem;
+    left:   1rem;
+  }
+}
+
+
+/* Container
+ *
+ * Align the contents of the site above the proper threshold with some margin-fu
+ * with a 25%-wide `.sidebar`.
+ */
+
+.content {
+  padding-top:    4rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 48em) {
+  .content {
+    max-width: 38rem;
+    margin-left: 18rem;
+    margin-right: 11rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .content {
+    max-width: 64rem;
+    margin-left: 20rem;
+    margin-right: 11rem;
+  }
+}
+
+@media (min-width: 48em) {
+  .content-wide {
+    max-width: 54rem;
+    margin-left: 18rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .content-wide {
+    max-width: 64rem;
+    margin-left: 20rem;
+    margin-right: 4rem;
+  }
+}
+
+.image-text-row {
+  display: block;
+}
+
+@media (min-width: 48em) {
+  .image-text-row {
+    display: flex;
+    gap: 1.5rem;
+    align-items: stretch
+  }
+  .image-text-row img {
+    width: 45%;
+    flex-shrink: 0;
+    order: 2;
+    align-self: flex-start;
+  }
+  .image-text-row .text-col {
+    order: 1; /* reorder for big screens*/
+  }
+}
+
+.text-col {
+  align-items: center;   /* mobile default: centered */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.image-text-row-right {
+  display: block;
+}
+
+@media (min-width: 48em) {
+  .image-text-row-right {
+    display: flex;
+    gap: 1.5rem;
+    align-items: stretch
+  }
+  .image-text-row-right img {
+    width: 30%;
+    flex-shrink: 0;
+    order: 2;
+  }
+  .image-text-row-right .text-col {
+    order: 1; /* reorder for big screens*/
+    align-items: flex-start;
+    text-align: left;
+  }
+}
+
+.image-text-row-left {
+  display: block; 
+}
+
+@media (min-width: 48em) {
+  .image-text-row-left {
+    display: flex;
+    gap: 1.5rem;
+    align-items: stretch
+  }
+  .image-text-row-left img {
+    width: 30%;
+    flex-shrink: 0;
+  }
+  .image-text-row-left .text-col {
+    align-items: flex-end;
+    text-align: right;
+  }
+}
+
+.button-link {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: transparent;
+  color: #268bd2;
+  border: 2px solid #268bd2;
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: background-color 0.15s ease, color 0.15s ease;
+  align-self: center;
+}
+
+.button-link:hover {
+  background-color: #268bd2;
+  color: #fff;
+}
+
+@media (min-width: 48em) {
+  .button-link.align-right {
+    align-self: flex-end;
+  }
+  .button-link.align-left {
+    align-self: flex-start;
+  }
+}
+
+/*
+ * Reverse layout
+ *
+ * Flip the orientation of the page by placing the `.sidebar` on the right.
+ */
+
+@media (min-width: 48em) {
+  .layout-reverse .sidebar {
+    left: auto;
+    right: 0;
+  }
+  .layout-reverse .content {
+    margin-left: 2rem;
+    margin-right: 20rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .layout-reverse .content {
+    margin-left: 4rem;
+    margin-right: 22rem;
+  }
+}
+
+/*project*/
+.project-toc {
+  display: none;
+}
+
+@media (min-width: 76em) {
+  .project-toc {
+    display: block;
+    position: fixed;
+    top: 4rem;
+    right: 2rem;
+    width: 8rem;
+    max-height: calc(100vh - 8rem);
+    overflow-y: auto;
+    font-size: 0.85rem;
+  }
+  .project-toc ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 1rem;
+  }
+  .project-toc > ul {
+    padding-left: 0;
+  }
+  .project-toc a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    padding: 0.15rem 0;
+  }
+  .project-toc a:hover {
+    text-decoration: underline;
+  }
+}
+
+.mobile-spacer {
+  display: block;
+  height: 2rem;
+}
+
+@media (min-width: 48em) {
+  .mobile-spacer {
+    display: none;
+  }
+}
+
+
+
+/*
+ * Themes
+ *
+ * As of v1.1, Hyde includes optional themes to color the sidebar and links
+ * within blog posts. To use, add the class of your choosing to the `body`.
+ */
+
+/* Base16 (http://chriskempson.github.io/base16/#default) */
+
+/* Red */
+.theme-base-08 .sidebar {
+  background-color: #ac4142;
+}
+.theme-base-08 .content a,
+.theme-base-08 .related-posts li a:hover {
+  color: #ac4142;
+}
+
+/* Orange */
+.theme-base-09 .sidebar {
+  background-color: #d28445;
+}
+.theme-base-09 .content a,
+.theme-base-09 .related-posts li a:hover {
+  color: #d28445;
+}
+
+/* Yellow */
+.theme-base-0a .sidebar {
+  background-color: #f4bf75;
+}
+.theme-base-0a .content a,
+.theme-base-0a .related-posts li a:hover {
+  color: #f4bf75;
+}
+
+/* Green */
+.theme-base-0b .sidebar {
+  background-color: #90a959;
+}
+.theme-base-0b .content a,
+.theme-base-0b .related-posts li a:hover {
+  color: #90a959;
+}
+
+/* Cyan */
+.theme-base-0c .sidebar {
+  background-color: #75b5aa;
+}
+.theme-base-0c .content a,
+.theme-base-0c .related-posts li a:hover {
+  color: #75b5aa;
+}
+
+/* Blue */
+.theme-base-0d .sidebar {
+  background-color: #6a9fb5;
+}
+.theme-base-0d .content a,
+.theme-base-0d .related-posts li a:hover {
+  color: #6a9fb5;
+}
+
+/* Magenta */
+.theme-base-0e .sidebar {
+  background-color: #aa759f;
+}
+.theme-base-0e .content a,
+.theme-base-0e .related-posts li a:hover {
+  color: #aa759f;
+}
+
+/* Brown */
+.theme-base-0f .sidebar {
+  background-color: #8f5536;
+}
+.theme-base-0f .content a,
+.theme-base-0f .related-posts li a:hover {
+  color: #8f5536;
+}
