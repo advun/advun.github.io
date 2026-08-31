@@ -5,7 +5,7 @@ wide: true
 ---
 
 <div class="image-text-row-left">
-  <img src="{{ '/public/images/adversarialplaceholder.png' | relative_url }}" alt="Adversarial Probes" style="align-self: center;">
+  <img src="{{ '/public/images/adversarialplaceholder.png' | relative_url }}" alt="Adversarial Probes" style="align-self: flex-start;">
   <div class="text-col">
     <h2>Not to Break, but to Attest: Adversarial Probes for
     Privacy-Preserving LLM Verification</h2>
