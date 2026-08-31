@@ -4,8 +4,6 @@ title: Research
 wide: true
 ---
 
-<hr style="border: none; border-top: 4px solid rgba(0,0,0,0.5); margin: 0.5rem 0 1rem 0;">
-
 <div class="image-text-row-left">
   <img src="{{ '/public/images/adversarialplaceholder.png' | relative_url }}" alt="Adversarial Probes">
   <div class="text-col">
