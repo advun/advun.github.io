@@ -8,7 +8,7 @@ excerpt: "WPI's first satellite, a PocketQube"
 
 ## Overview
 
-The GOAT-1 Satellite, developed by WPI's Spacecraft Development Club (SDC), is WPI's first satellite, developed to begin a flight history and to develop and test power and control systems that can be scaled for future larger missions.  The satellite fits within the PocketQube standards, with sides of 5cm and a mass of no more then 250 grams.  I was the Support Systems Lead from 2024 to 2026, in charge of main control board development, which operates the camera, control the power board, and transmits images from space to the ground.
+The GOAT-1 Satellite, developed by WPI's Spacecraft Development Club (SDC), is WPI's first satellite, developed to begin a flight history and to develop and test power and control systems that can be scaled for future larger missions.  The satellite fits within the PocketQube standards, with sides of 5cm and a mass of no more then 250 grams.  I was the Support Systems Lead from 2024 to 2026, in charge of main control board development, which operates the camera, controls the power board, and transmits images from space to the ground.
 
 <figure style="width:70%; margin:1.5rem auto;">
   <img src="{{ '/public/images/goat2.jpg' | relative_url }}" alt="Assembled GOAT1 prototype with glass panels installed" style="width:100%">
