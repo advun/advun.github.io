@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Anti-Overcharge Power Brick"
-photo: /public/images/tbd.jpg
+photo: /public/images/powerbrick.jpg
 date: 2025-05-05
 excerpt: "A smart charging block for any device"
 ---
