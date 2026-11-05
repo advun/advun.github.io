@@ -12,8 +12,8 @@ The GOAT-1 Satellite, developed by WPI's Spacecraft Development Club (SDC), is W
 
 <body>
     <figure>
-       <img src="{{ '/public/images/goat2.jpg' | relative_url }}" alt="GOAT1 Full Prototype" style="width:70%">
-       <figcaption>Full testing prototype assembled, with glass installed</figcaption>
+        <img src="{{ '/public/images/goat2.jpg' | relative_url }}" alt="GOAT1 Full Prototype">
+        <figcaption>Full testing prototype assembled, with glass installed</figcaption>
     </figure>
 </body>
 
