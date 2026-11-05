@@ -12,10 +12,11 @@ The GOAT-1 Satellite, developed by WPI's Spacecraft Development Club (SDC), is W
 
 <body>
     <figure>
-        <img src="{{ '/public/images/goat2.jpg' | relative_url }}" alt="GOAT1 Full Prototype">
+        <img src="{{ '/public/images/goat2.jpg' | relative_url }}" alt="GOAT1 Full Prototype" style="width:70%">
         <figcaption>Full testing prototype assembled, with glass installed</figcaption>
     </figure>
 </body>
+
 
 Other then our main systems, we were testing two novel satellite features: a switchable glass sunshade for the camera, and using PCBs as structural components.  In larger satellites, there are systems to stabilize and maneuver the satellite while in orbit.  With small satellites like ours, there is simply not enough weight for these systems, so the satellites tumble through space, leading to the satellite's camera pointing directly at the sun repeatedly.  This leads to camera failures long before the satellite de-orbits.  Our solution is testing a piece of switchable glass as a sunshade, along with software to figure out how the satellite is tumbling, to protect the camera from the sun.  The glass uses no moving parts, only an applied electric charge, can be switched on and off thousands of times, and is very light.  A paper written on this solution was submitted to the American Institute of Aeronautics and Astronautics (AIAA).
 
